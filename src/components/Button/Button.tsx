@@ -1,9 +1,16 @@
-import { twMerge } from "tailwind-merge"
-
 export type ButtonProps = {
-  children: React.ReactNode
-} & React.ButtonHTMLAttributes<HTMLButtonElement>
+  children: React.ReactNode;
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-export default function Button({children, className} : ButtonProps) {
-  return <button className={twMerge('py-3 px-8 bg-[#2D5BFF] rounded-lg text-white', className)} >{children}</button>
-} 
+const Button = ({ children, className }: ButtonProps) => {
+  return <button
+    className={`
+      bg-primary rounded-md px-[32px] py-[12px] text-white
+      ${className}
+    `}
+  >
+    { children }
+  </button>
+}
+
+export default Button

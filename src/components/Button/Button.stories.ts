@@ -11,6 +11,13 @@ export default meta
 
 export const Primary: StoryObj<ButtonProps> = {
   args: {
-    children: 'Button',
+    children: 'Butão',
+  }
+}
+
+export const Violet: StoryObj<ButtonProps> = {
+  args: {
+    children: 'Butão',
+    className: 'theme-violet'
   }
 }
