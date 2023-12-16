@@ -1,16 +1,26 @@
-import { Meta, Primary, Canvas, Controls} from '@storybook/blocks'
+import { Meta, Primary, Canvas, Controls } from "@storybook/blocks"
 
-import * as Story from './TextBlock.stories.ts'
+import * as Story from "./TextBlock.stories.ts"
 
 <Meta of={Story} />
 
-# Bloco de texto
+# TextBlock
 
-Este é um componente de bloco de texto, utilizado para apresentar texto com um titulo.
+Este é um componente de Bloco de texto.
 
-### Primário
-<Canvas of={Story.Primary} />
+### Bloco de Texto Primário
+
+<Canvas of={Story.TextBlockPrimary} layout="centered" />
+
+### Bloco de Texto Secundário
+
+<Canvas of={Story.TextBlockSecondary} layout="centered" />
+
+### Bloco de Texto Terciário
+
+<Canvas of={Story.TextBlockTertiary} layout="centered" />
 
 ## Documentação Interativa
-<Primary of={Story} />
+
+<Primary />
 <Controls />

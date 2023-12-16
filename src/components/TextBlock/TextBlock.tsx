@@ -1,12 +1,30 @@
-export type TextBlockProps = {
-  title: string
-  content: string
-  className?: string
-}
+import Box from "../Box/Box"
+import Typography from "../Typography/Typography"
 
-export default function TextBlock({title, content, className}: TextBlockProps) {
-  return <div className={`flex flex-col justify-center items-start rounded-md bg-dark px-8 py-6 gap-1 ${className}`}>
-    <h1 className="text-gray-primary text-xl font-extrabold ">{title}</h1>
-    <p className="text-gray-primary">{content}</p>
-  </div>
+export type TextBlockProps = {
+  title?: string
+  type: "primary" | "secondary" | "dark"
+  children: React.ReactNode
+  className?: string
+} & React.HTMLAttributes<HTMLElement>
+
+export default function TextBlock({
+  title,
+  type = "dark",
+  children,
+  className,
+  ...rest
+}: TextBlockProps) {
+  const textClass = type === "primary" ? "text-white" : "text-gray-primary"
+
+  return (
+    <Box className={`flex flex-col gap-2 p-5`} type={type} rounded {...rest}>
+      <div className={className}>
+        <Typography className={`font-bold ${textClass}`} size="xl">
+          {title}
+        </Typography>
+        <Typography className={textClass}>{children}</Typography>
+      </div>
+    </Box>
+  )
 }
