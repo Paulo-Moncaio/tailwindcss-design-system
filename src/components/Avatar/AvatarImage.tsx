@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export type AvatarImageProps = {
-  src: string;
-  altDescription: string | "";
-};
+  src: string
+  altDescription: string | ''
+}
 
 const AvatarImage = ({ src, altDescription }: AvatarImageProps) => {
   return (
@@ -16,7 +16,7 @@ const AvatarImage = ({ src, altDescription }: AvatarImageProps) => {
         height={100}
       />
     </div>
-  );
-};
+  )
+}
 
-export default AvatarImage;
+export default AvatarImage

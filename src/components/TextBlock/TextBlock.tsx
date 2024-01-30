@@ -1,21 +1,21 @@
-import Box from "../Box/Box"
-import Typography from "../Typography/Typography"
+import Box from '../Box/Box'
+import Typography from '../Typography/Typography'
 
 export type TextBlockProps = {
   title?: string
-  type: "primary" | "secondary" | "dark"
+  type: 'primary' | 'secondary' | 'dark'
   children: React.ReactNode
   className?: string
 } & React.HTMLAttributes<HTMLElement>
 
 export default function TextBlock({
   title,
-  type = "dark",
+  type = 'dark',
   children,
   className,
   ...rest
 }: TextBlockProps) {
-  const textClass = type === "primary" ? "text-white" : "text-gray-primary"
+  const textClass = type === 'primary' ? 'text-white' : 'text-gray-primary'
 
   return (
     <Box className={`flex flex-col gap-2 p-5`} type={type} rounded {...rest}>
