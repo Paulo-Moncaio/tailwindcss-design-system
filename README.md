@@ -1,7 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Goal:
-- Learn how to implement a design system 
+- Learn how to implement a design system in a Nextjs and tailwindcss project.
+- How to use storybook to document the frontend following good development practices.
+- Apply Atomic Design to a React project, using good practices and following a design system.
 
 ## How to run localy
 
