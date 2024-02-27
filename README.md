@@ -21,11 +21,11 @@ Open [http://localhost:6006](http://localhost:6006) with your browser to see the
 ## what I've learned
 - Understanding the concepts of **Atomic Design** can help you create smaller components, with fewer responsibilities and that are reusable.
 - Use **CVA (Class Variance Authority)** to handle conditional styling using Tailwind CSS.
-- Creating design tokens on tailwindcss project following figma design system.
-- Documenting Frontend aplication with storybook using MDX files to make it more informative.
-- Plugins in storybook such as, Controls and Actions, making the documentation more interective.
-- How to use Chromatic library to test frontend visual, comparing diferent builds.
-- Publish nextjs projects on vercel.
+- Creating **design tokens** on tailwindcss project following figma design system.
+- Documenting Frontend aplication with **storybook** using **MDX files** to make it more informative.
+- **Plugins in storybook** such as, Controls and Actions, making the documentation more interective.
+- How to use **Chromatic** library to test frontend visual, comparing diferent builds.
+- Publish nextjs projects on **vercel**.
 
 ## technologies ⚙️
 - [Nextjs](https://nextjs.org) | [Typescript](https://www.typescriptlang.org)
