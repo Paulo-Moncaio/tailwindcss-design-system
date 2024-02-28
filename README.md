@@ -2,15 +2,10 @@
   <img alt="Alfabit Design System" title="#alfabit-ds" src="public/logo-alfabit-branco.png" height="150" />
 </h1>
 
-## Alfabit Design System
 <p align="center">
    <h2 align="center">
     Alfabit Design System
     </h2>
-</p>
-
-<p align="center">
-  Biblioteca de componentes web da Alfabit
 </p>
 
 <p align="center">
@@ -41,10 +36,6 @@
     <img src="https://img.shields.io/static/v1?color=red&label=Figma&message=  &?style=plastic&logo=Figma">
   </a>
 </p>
-
-## O que é?
- A Alfabit é uma empresa de tecnologia inovadora dedicada a fornecer soluções criativas e eficientes para seus clientes. Reconhecendo a importância do design consistente e intuitivo em todas as suas plataformas e produtos, a Alfabit decidiu investir em um design system de ponta.
- <br> </br>
 
 ## How to install
 ```bash
