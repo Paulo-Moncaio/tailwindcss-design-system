@@ -84,7 +84,7 @@ npm run storybook
 - [chromatic](https://www.chromatic.com)
 - [headlessui](https://headlessui.com)
 
-## Licença
+## License
 The [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html) (GPL)
 
 Copyright :copyright: 2023 - Alfabit Design System
