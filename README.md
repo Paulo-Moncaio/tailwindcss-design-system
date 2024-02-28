@@ -26,6 +26,7 @@ Open [http://localhost:6006](http://localhost:6006) with your browser to see the
 - **Plugins in storybook** such as, Controls and Actions, making the documentation more interective.
 - How to use **Chromatic** library to test frontend visual, comparing diferent builds.
 - Publish nextjs projects on **vercel**.
+- Versioning and Publish npm library, and indentify breaking changes
 
 ## technologies ⚙️
 - [Nextjs](https://nextjs.org) | [Typescript](https://www.typescriptlang.org)
